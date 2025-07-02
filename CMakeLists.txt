@@ -15,6 +15,7 @@ include_directories(${PROJECT_SOURCE_DIR})
 # 设置库源文件
 set(LIB_SRC
     log.cc
+    util.cc
 )
 
 # 构建共享库
